@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/parsers
+END
+ATOMParserTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/parsers/ATOMParserTest.as
+END
+XSPFParserTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/parsers/XSPFParserTest.as
+END
+MRSSParserTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/parsers/MRSSParserTest.as
+END
+SMILParserTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/parsers/SMILParserTest.as
+END
+ITunesParserTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/parsers/ITunesParserTest.as
+END
+ASXParserTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/parsers/ASXParserTest.as
+END

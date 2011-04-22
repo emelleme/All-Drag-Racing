@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/98047/open/modules/ecommerce/trunk
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/62505/open/modules/ecommerce/trunk/LICENSE
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/87729/open/modules/ecommerce/trunk/ChangeLog
+END
+_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/74606/open/modules/ecommerce/trunk/_config.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/75273/open/modules/ecommerce/trunk/README
+END

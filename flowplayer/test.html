@@ -1,0 +1,62 @@
+<!--     THIS IS A BASIC HTML FILE TO PLAY MP4's USING FLOWPLAYER (comments in blue)
+-->
+<HTML>
+<HEAD>
+<TITLE>  
+Streaming Video with Flowplayer
+</TITLE>	
+</HEAD>
+<BODY>
+<!-- Put a header above your video, if you like
+-->
+<H1>Test Video</H1>
+<!—This is where you call on the required JavaScript file. You uploaded this in step 2c; you can recognize it by the .js suffix -->
+<script src="js/flowplayer-3.2.4.min.js"></script>	
+<!-- Style section. This is where you can specify attributes of the player, like height, width, color, etc 
+-->
+<style>
+a.rtmp {
+			display:block;
+			width:440px;
+			height:280px;	
+			margin:25px 0;
+			text-align:center;
+			background-color:black;
+}
+</style>
+<!--  Specify the name of your video in the href- attribute below. You uploaded this in step 2e; in this example it is an .mp4 file
+     When playing mp4s, you must write it as you see it below--mp4:NAME_OF_FILE (Note the .mp4 file extension is removed) -->
+<a class="rtmp" href="mp4:war_on_wheels/VTS_01_0.m4v" />
+
+<!--  Specify your splash image. Be sure it is the same size as your player.
+This code is optional — if you do not want a splash image, erase this line. --> 
+<img src="../assets/alldragracing.png" alt="PLAY ME" />
+
+<script type="text/javascript">
+$f("a.rtmp", "swf/flowplayer-3.2.5.swf", { 
+	//  This next code configures the player to use rtmp plugin for streaming. 
+		clip: { 
+			provider: 'rtmp'
+		}, 
+	// Here is our rtpm plugin configuration 
+		plugins: {  
+	  		rtmp: {  
+			url: 'http://s3.amazonaws.com/alldragracing/flowplayer.rtmp-3.2.3.swf',			
+/*
+	"netConnectionUrl" below defines where the streams are found;
+	this URL is specific to Amazon CloudFront. it is the address you are given when you made a streaming distribution of the bucket in which your video resides, ending in .cloudfront.net. YOU *MUST* ADD "/cfx/st" IN ORDER TO ENSURE THAT YOUR VIDEO WILL STREAM. Mine would read 'rtmp://s1jng015tymskd.cloudfront.net/cfx/st'
+*/
+netConnectionUrl: 'rtmp://s2p3ryxd78qjd5.cloudfront.net/cfx/st'  
+	  	} 
+}	     
+});
+</script>
+</BODY>
+</HTML>
+<!--Common problems:
+-	You cannot have any spaces in any of your URL's (including your 'rtmp://...'  URL)				(i.e.,  http:// thereisaspaceatthebeginninghere.xxx) 
+-	Be sure you are calling the correctly numbered version of the flowplayer objects/players (i.e. flowplayer-3.2.2.swf
+-	You cannot have duplicates of 's3.amazonaws.com' or 'cloudfront.net' in the same address (i.e. (http://s3.amazonaws.com/s3.amazonaws.com/YOUR_BUCKET/player.swf)
+-	There is a different naming protocol for mp4 vs flv files. For .mp4 files, YOU MUST write it as 'mp4:YOUR_VIDEO_FILE_WITHOUT_THE _MP4_SUFFIX'. For .flv files, you simply write the name of the file, 'YOUR_VIDEO_FILE_WITHOUT_THE_FLV_SUFFIX'.
+-->
+

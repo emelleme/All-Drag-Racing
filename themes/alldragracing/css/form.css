@@ -1,0 +1,234 @@
+/** 
+ * SilverStripe Black Candy Theme
+ * http://www.silverstripe.com
+ *
+ * Form Styling
+ */
+
+
+/* FIELDSETS
+---------------------------------------- */
+fieldset {
+	border: 0;
+}
+
+/* ACTION BUTTONS
+---------------------------------------- */
+input.action {
+	padding: 2px;
+	font-size: 14px ;
+	font-family: 'Expletus Sans', serif;
+}
+input.action:hover,
+input.action:focus {
+	cursor: pointer;
+}
+
+/* FIELD FORMATING
+---------------------------------------- */
+form ul {
+	list-style: none;
+}
+.middleColumn {
+ 	display: block;
+ 	margin: 15px 10px 10px 0;
+	background: #444;
+	padding: 4px;
+	width: 306px;
+	clear: left;
+}
+	#Sidebar .middleColumn {
+		margin: 0 0 0 8px;
+		display: inline;
+	}
+	
+	div.tab .field .middleColumn {
+		clear: none !important;
+ 		margin: 0 !important;
+		width: auto;
+	}
+	
+	.middleColumn .middleColumn {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+	}
+	
+	.middleColumn .message {
+		margin: 0;
+	}
+	
+/* INPUT BOXS
+---------------------------------------- */
+
+input.text, textarea, select {
+	padding: 2px;
+	border: 1px solid #A7A7A7;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	width: 300px;
+}
+
+textarea {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 12px;
+}
+input:focus span, textarea:focus span {
+	border: 3px solid #000;
+}
+
+form .date input.month,
+form .date input.day,
+form .date input.year {
+	width: auto;
+}
+
+form .datetime .clear {
+	clear: both;
+}
+
+form .datetime .date,
+form .datetime .time {
+	float: left;
+	clear: none;
+	width: auto;
+}
+	form .datetime .middleColumn .middleColumn {
+		width: auto;
+	}
+	form .datetime .date input,
+	form .datetime .time input {
+		width: auto;
+	}
+
+
+/* SELECT DROPDOWN
+---------------------------------------- */
+
+select {
+	width: auto;
+}
+
+/* LABELS
+---------------------------------------- */
+.typography label {
+ 	display: block;
+	margin: 10px 0 -10px 0;
+	color: #bbb;
+	font-size: 12px;
+}
+
+label.right {
+	display:inline;
+}
+
+/* CHECKBOXES
+---------------------------------------- */
+ul.optionset {
+	margin: 0;
+	overflow: hidden;
+}
+	ul.optionset li {
+		margin: 6px 0;
+		clear: both;
+	}
+		ul.optionset li input {
+			float: left;
+			margin: 0 6px;
+		}
+		ul.optionset li label {
+			margin: 0;
+		}
+		
+/*-------------------------------------
+FORM CORE
+------------------------------------------*/
+
+form#contact fieldset {
+	padding: 10px 20px 20px 20px;
+	margin: 0 auto;
+	border: 0;
+	background-color: #fff;
+	width: 290px;
+	text-align: left;
+	border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0px 0px 10px #d3d3d3; 
+	-webkit-box-shadow: 0px 2px 10px #d3d3d3; 
+	box-shadow: 0px 0px 10px #d3d3d3; 
+}
+
+form#contact input[type="text"], input[type="url"], 
+input[type="email"], input[type="tel"], textarea {
+	margin: 3px 0 0 0;
+	padding: 6px; 
+	width: 260px; 
+	font-family: arial, sans-serif; 
+	font-size: 12px; 
+	border: 1px solid #ccc;
+    background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(4%, #f4f4f4), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #f4f4f4 1px, #FFFFFF 15px);
+}
+
+form#contact textarea {
+	width: 275px; 
+	height: 150px;
+}
+
+form#contact label {
+	display: block;
+	font-size: 13px;
+	color: #666;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+form#contact label.error { 
+	width: 270px;
+	margin: 3px 0 0 0;
+	display: block;
+	color: #cf0101;                              
+	font-size: 11px; 
+	text-align: right;
+}
+
+form#contact .placeholder {
+	color: #aaa;
+}
+
+form#contact .button {
+	display: inline-block;
+	margin: 15px 0 0 90px;
+	padding: 5px 15px 5px 15px;
+	background-color: #ff9e00;
+	border: none;
+	color: #fff;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+form#contact .button:hover {
+	background-color: #fc8500;
+	cursor: pointer;
+}
+
+form#contact .button:active {
+	margin-top: 16px;
+	background-color: #f08004;
+	cursor: pointer;
+}
+
+#searchform input.text {
+width: 400px;
+border: 1px solid #C7C7C7c7;
+margin: 5px 0;
+padding: 5px 2px;
+height: 15px;
+background: #F8F8F8;
+line-height: 30px;
+height: 30px;
+font-size: 25px;
+}

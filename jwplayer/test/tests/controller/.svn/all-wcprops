@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/controller
+END
+TestPlugin1.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/controller/TestPlugin1.as
+END
+TestPlugin2.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/controller/TestPlugin2.as
+END
+LockManagerTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/controller/LockManagerTest.as
+END

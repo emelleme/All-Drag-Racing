@@ -1,0 +1,22 @@
+K 10
+svn:ignore
+V 225
+.actionScriptProperties
+.flexProperties
+.project
+.settings
+asdoc
+bin-debug
+bin-release
+bin-test
+docs
+html-template
+result.xml
+commercial-player.swf
+player-5.0.swf
+player-5.0d.swf
+.externalToolBuilders
+build2
+player-viral.swf
+
+END

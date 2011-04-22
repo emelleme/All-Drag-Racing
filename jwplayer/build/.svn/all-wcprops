@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/build
+END
+skin-builder.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/build/skin-builder.py
+END
+yuicompressor-2.4.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/build/yuicompressor-2.4.2.jar
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/build/build.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/build/build.xml
+END

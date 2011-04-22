@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media
+END
+ImageMediaProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media/ImageMediaProvider.as
+END
+RTMPMediaProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media/RTMPMediaProvider.as
+END
+VideoMediaProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media/VideoMediaProvider.as
+END
+SoundMediaProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media/SoundMediaProvider.as
+END
+YouTubeMediaProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media/YouTubeMediaProvider.as
+END
+HTTPMediaProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media/HTTPMediaProvider.as
+END
+MediaProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/media/MediaProvider.as
+END

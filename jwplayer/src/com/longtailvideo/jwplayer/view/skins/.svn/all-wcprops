@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/skins
+END
+SkinBase.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/skins/SkinBase.as
+END
+SkinProperties.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/skins/SkinProperties.as
+END
+SWFSkin.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/skins/SWFSkin.as
+END
+ZIPSkin.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/skins/ZIPSkin.as
+END
+DefaultSkin.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/skins/DefaultSkin.as
+END
+PNGSkin.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/skins/PNGSkin.as
+END

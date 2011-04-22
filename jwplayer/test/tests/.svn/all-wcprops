@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests
+END
+ControllerSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/ControllerSuite.as
+END
+SkinSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/SkinSuite.as
+END
+ConfigSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/ConfigSuite.as
+END
+SWFTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/SWFTest.as
+END
+ParserSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/ParserSuite.as
+END
+MediaSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/MediaSuite.as
+END
+UtilsSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/UtilsSuite.as
+END
+SetupSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/SetupSuite.as
+END
+ExampleTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/ExampleTest.as
+END
+PlaylistSuite.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/test/tests/PlaylistSuite.as
+END

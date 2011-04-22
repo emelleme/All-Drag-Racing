@@ -1,0 +1,55 @@
+8
+
+dir
+115902
+http://svn.silverstripe.com/open/phpinstaller/branches/2.4/assets
+http://svn.silverstripe.com
+
+
+
+2011-01-26T03:11:59.047384Z
+115816
+sharvey
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+467b73ca-7a2a-4603-9d3b-597d59a354a9
+
+web.config
+file
+
+
+
+
+2011-01-28T14:59:54.000000Z
+20baf4a67585159eabe7cf069c9487ab
+2010-10-19T23:00:58.396474Z
+112963
+sminnee
+
+Uploads
+dir
+
+.htaccess
+file
+
+
+
+
+2011-01-28T14:59:54.000000Z
+66a4672a0850cea568dda8139a484503
+2011-01-26T03:11:59.047384Z
+115816
+sharvey
+

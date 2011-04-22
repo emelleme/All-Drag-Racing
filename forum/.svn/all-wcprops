@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/113106/open/modules/forum/branches/0.3
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/98900/open/modules/forum/branches/0.3/LICENSE
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/98900/open/modules/forum/branches/0.3/ChangeLog
+END
+_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/98900/open/modules/forum/branches/0.3/_config.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/109113/open/modules/forum/branches/0.3/README.md
+END

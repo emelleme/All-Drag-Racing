@@ -1,0 +1,58 @@
+8
+
+dir
+115902
+http://svn.silverstripe.com/open/phpinstaller/branches/2.4/mysite
+http://svn.silverstripe.com
+
+
+
+2010-10-24T06:47:18.196857Z
+113086
+wrossiter
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+467b73ca-7a2a-4603-9d3b-597d59a354a9
+
+javascript
+dir
+
+code
+dir
+
+_config.php
+file
+
+
+
+
+2011-01-28T14:59:54.000000Z
+8057572b48989932b25d7b2b921c66ec
+2010-10-24T06:47:18.196857Z
+113086
+wrossiter
+
+.htaccess
+file
+
+
+
+
+2011-01-28T14:59:54.000000Z
+41857fa8c27045add4f135646b13e5c1
+2010-07-20T04:50:22.766945Z
+108208
+ischommer
+

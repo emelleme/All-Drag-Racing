@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/105877/open/modules/forum/branches/0.3/templates/Layout
+END
+ForumHolder_search.ss
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/105877/open/modules/forum/branches/0.3/templates/Layout/ForumHolder_search.ss
+END
+Forum_post.ss
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/Forum_post.ss
+END
+ForumMemberProfile.ss
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/ForumMemberProfile.ss
+END
+ForumMemberProfile_show.ss
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/100379/open/modules/forum/branches/0.3/templates/Layout/ForumMemberProfile_show.ss
+END
+ForumHolder_popularthreads.ss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/ForumHolder_popularthreads.ss
+END
+Forum_editpost.ss
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/Forum_editpost.ss
+END
+Forum_reply.ss
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/Forum_reply.ss
+END
+Forum_starttopic.ss
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/Forum_starttopic.ss
+END
+ForumMemberProfile_register.ss
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/ForumMemberProfile_register.ss
+END
+ForumHolder.ss
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/ForumHolder.ss
+END
+Forum.ss
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/98900/open/modules/forum/branches/0.3/templates/Layout/Forum.ss
+END
+Forum_show.ss
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/105877/open/modules/forum/branches/0.3/templates/Layout/Forum_show.ss
+END
+ForumHolder_memberlist.ss
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/105877/open/modules/forum/branches/0.3/templates/Layout/ForumHolder_memberlist.ss
+END

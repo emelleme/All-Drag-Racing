@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/75275/open/modules/ecommerce/trunk/templates/Layout
+END
+ProductGroup.ss
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/63781/open/modules/ecommerce/trunk/templates/Layout/ProductGroup.ss
+END
+Product.ss
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/74584/open/modules/ecommerce/trunk/templates/Layout/Product.ss
+END
+CheckoutPage.ss
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/54977/open/modules/ecommerce/trunk/templates/Layout/CheckoutPage.ss
+END
+AccountPage_order.ss
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/75275/open/modules/ecommerce/trunk/templates/Layout/AccountPage_order.ss
+END
+AccountPage.ss
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/54930/open/modules/ecommerce/trunk/templates/Layout/AccountPage.ss
+END

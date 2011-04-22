@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/plugins
+END
+PluginConfig.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/plugins/PluginConfig.as
+END
+IPlugin.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/plugins/IPlugin.as
+END
+V4Plugin.as
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/plugins/V4Plugin.as
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model
+END
+Color.as
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model/Color.as
+END
+Model.as
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model/Model.as
+END
+PlaylistItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model/PlaylistItem.as
+END
+Playlist.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model/Playlist.as
+END
+PlayerConfig.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model/PlayerConfig.as
+END
+PlaylistItemLevel.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model/PlaylistItemLevel.as
+END
+IPlaylist.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/model/IPlaylist.as
+END

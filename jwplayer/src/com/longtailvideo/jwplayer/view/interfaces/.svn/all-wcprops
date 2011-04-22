@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/interfaces
+END
+IPlaylistComponent.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/interfaces/IPlaylistComponent.as
+END
+ISkin.as
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/interfaces/ISkin.as
+END
+IControlbarComponent.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/interfaces/IControlbarComponent.as
+END
+IDisplayComponent.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/interfaces/IDisplayComponent.as
+END
+IPlayerComponent.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/interfaces/IPlayerComponent.as
+END
+IDockComponent.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/src/com/longtailvideo/jwplayer/view/interfaces/IDockComponent.as
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/77644/open/modules/ecommerce/trunk/templates/Includes
+END
+ProductGroupItem.ss
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/77644/open/modules/ecommerce/trunk/templates/Includes/ProductGroupItem.ss
+END
+OrderInformation_Print.ss
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/47195/open/modules/ecommerce/trunk/templates/Includes/OrderInformation_Print.ss
+END
+OrderInformation.ss
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/74585/open/modules/ecommerce/trunk/templates/Includes/OrderInformation.ss
+END
+Order_Member.ss
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/57714/open/modules/ecommerce/trunk/templates/Includes/Order_Member.ss
+END
+PaymentInformation.ss
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/47195/open/modules/ecommerce/trunk/templates/Includes/PaymentInformation.ss
+END
+OrderInformation_PackingSlip.ss
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/57720/open/modules/ecommerce/trunk/templates/Includes/OrderInformation_PackingSlip.ss
+END
+Order_Content.ss
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/63482/open/modules/ecommerce/trunk/templates/Includes/Order_Content.ss
+END
+ProductMenu.ss
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/60953/open/modules/ecommerce/trunk/templates/Includes/ProductMenu.ss
+END
+Cart.ss
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/63482/open/modules/ecommerce/trunk/templates/Includes/Cart.ss
+END
+OrderInformation_NoPricing.ss
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/54850/open/modules/ecommerce/trunk/templates/Includes/OrderInformation_NoPricing.ss
+END
+OrderInformation_Editable.ss
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/63482/open/modules/ecommerce/trunk/templates/Includes/OrderInformation_Editable.ss
+END

@@ -1,0 +1,53 @@
+8
+
+dir
+116228
+http://svn.silverstripe.com/open/modules/forum/branches/0.3/code/formfields
+http://svn.silverstripe.com
+
+
+
+2009-10-14T03:09:14.009760Z
+88924
+mstephens
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+467b73ca-7a2a-4603-9d3b-597d59a354a9
+
+CheckableOption.php
+file
+
+
+
+
+2011-02-13T20:29:12.000000Z
+3c08a3bf7cffd9292c1ed44aee09e38d
+2009-03-17T02:28:27.270545Z
+73174
+mandrew
+has-props
+
+HasOneCTFWithDefaults.php
+file
+
+
+
+
+2011-02-13T20:29:12.000000Z
+4f9f0abf4ebc5105186a008da92322c0
+2009-10-14T03:09:14.009760Z
+88924
+mstephens
+

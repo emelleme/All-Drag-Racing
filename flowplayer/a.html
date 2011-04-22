@@ -1,0 +1,31 @@
+<!--     THIS IS A BASIC HTML FILE TO PLAY MP4's USING FLOWPLAYER (comments in blue)
+-->
+<HTML>
+<HEAD>
+<TITLE>  
+Streaming Video with Flowplayer
+</TITLE>	
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+<script src="js/calendarInit.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		loadCalendar('http://www.google.com/calendar/feeds/vq75c0mikt3uiecu2ujgpi6n24@group.calendar.google.com/public/full','AcademicCalendar');
+	});
+	</script>
+
+</HEAD>
+<BODY>
+<div id="test">
+
+</div>
+<div id="AcademicCalendar" class="calendarView"></div>
+
+<script type="text/javascript">
+
+var mar = new Date.today().toString('yyyy-MM-dd');           
+var t = document.getElementById('test').innerHTML = mar;          
+</script>
+</BODY>
+</HTML>

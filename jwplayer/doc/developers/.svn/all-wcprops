@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers
+END
+pluginapi.rst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/pluginapi.rst
+END
+layout.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/layout.rst
+END
+mediaproviders.rst
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/mediaproviders.rst
+END
+buildingplugins.rst
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/buildingplugins.rst
+END
+startup.rst
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/startup.rst
+END
+compilingplugins.rst
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/compilingplugins.rst
+END
+conf.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/conf.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/Makefile
+END
+index.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1531/tags/mediaplayer-5.4/doc/developers/index.rst
+END

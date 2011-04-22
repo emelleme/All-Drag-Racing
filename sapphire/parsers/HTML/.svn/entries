@@ -1,0 +1,44 @@
+8
+
+dir
+115902
+http://svn.silverstripe.com/open/modules/sapphire/branches/2.4/parsers/HTML
+http://svn.silverstripe.com
+
+
+
+2010-08-10T00:14:21.247179Z
+109105
+sminnee
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+467b73ca-7a2a-4603-9d3b-597d59a354a9
+
+HTMLBBCodeParser.php
+file
+
+
+
+
+2011-01-28T14:59:59.000000Z
+d6dfc1971c6967dceecd026c559ca92a
+2010-08-10T00:14:21.247179Z
+109105
+sminnee
+has-props
+
+BBCodeParser
+dir
+

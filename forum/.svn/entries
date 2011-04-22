@@ -1,0 +1,98 @@
+8
+
+dir
+116228
+http://svn.silverstripe.com/open/modules/forum/branches/0.3
+http://svn.silverstripe.com
+
+
+
+2010-10-25T23:12:53.264127Z
+113106
+wrossiter
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+467b73ca-7a2a-4603-9d3b-597d59a354a9
+
+lang
+dir
+
+tests
+dir
+
+LICENSE
+file
+
+
+
+
+2011-02-13T20:29:12.000000Z
+f9eeb07f56b238c5bde846fff98aab48
+2008-09-17T00:04:52.388526Z
+62507
+ischommer
+
+images
+dir
+
+javascript
+dir
+
+ChangeLog
+file
+
+
+
+
+2011-02-13T20:29:12.000000Z
+ea5e74fa58fec5b5e6b8e00ae9e4d605
+2009-02-16T02:36:03.252999Z
+71878
+wrossiter
+
+css
+dir
+
+code
+dir
+
+_config.php
+file
+
+
+
+
+2011-02-13T20:29:12.000000Z
+ba0c452b15c72a0e4e944ce89d99e11d
+2009-04-15T22:33:25.068593Z
+74558
+sharvey
+has-props
+
+README.md
+file
+
+
+
+
+2011-02-13T20:29:12.000000Z
+a105317f5483d5b0cfb57e6e0f622be2
+2010-08-10T01:58:53.565437Z
+109113
+wrossiter
+
+templates
+dir
+

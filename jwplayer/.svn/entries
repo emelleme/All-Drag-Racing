@@ -1,0 +1,136 @@
+8
+
+dir
+1592
+http://developer.longtailvideo.com/svn/tags/mediaplayer-5.4
+http://developer.longtailvideo.com/svn
+
+
+
+2011-01-03T23:06:02.945804Z
+1531
+zach
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6bf506d4-4edb-4b42-8bf1-84b36a5c7d31
+
+build
+dir
+
+test
+dir
+
+assets
+dir
+
+doc
+dir
+
+src
+dir
+
+libs
+dir
+
+jwplayer.min.js
+file
+
+
+
+
+2011-02-08T01:38:38.000000Z
+004bf30965b8eba0f7948631839574dc
+2011-01-03T23:00:04.165738Z
+1530
+zach
+
+player.swf
+file
+
+
+
+
+2011-02-08T01:38:38.000000Z
+0d0d09de4c4a3d96cd3eea21dd34a208
+2011-01-03T23:00:04.165738Z
+1530
+zach
+has-props
+
+yt.swf
+file
+
+
+
+
+2011-02-08T01:38:38.000000Z
+eb45918a91b8ecd21f16976d5dc49c4c
+2010-09-14T22:31:02.472415Z
+1273
+pablo
+has-props
+
+README.txt
+file
+
+
+
+
+2011-02-08T01:38:38.000000Z
+e2eb4a3f5b028baca68c83296a0d660b
+2010-11-19T22:39:54.157572Z
+1430
+pablo
+
+player.xml
+file
+
+
+
+
+2011-02-08T01:38:38.000000Z
+f7f3d75559b74208519c355e84f52d00
+2010-03-11T22:24:48.045109Z
+897
+pablo
+
+js
+dir
+
+yt.fla
+file
+
+
+
+
+2011-02-08T01:38:38.000000Z
+4ae7a18adb28363732aa24e559d047f1
+2009-10-15T21:26:04.822662Z
+474
+pablo
+has-props
+
+yt.as
+file
+
+
+
+
+2011-02-08T01:38:38.000000Z
+bad7d1767e04d1fc1b29aa4b942c22b9
+2010-09-14T22:31:02.472415Z
+1273
+pablo
+
