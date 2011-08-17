@@ -1,6 +1,5 @@
 $(document).ready(function(){
  var base_url = $('base').attr('href');
- console.log(base_url);
  var $vidurl = $("#top_player").attr('alt'); 
 //Get Video ID
 	$f("player", "mysite/swf/flowplayer-3.2.5.swf", { 

@@ -14,6 +14,8 @@ aside {
 width: 245px;
 }
 
+img { border:none;}
+
 body {
 background: #000000 url("../images/bg.jpg") repeat;
 font-family: 'Expletus Sans', serif;
@@ -152,7 +154,7 @@ text-shadow: 0px 2px 3px #ddd;
 /* nav */
 
 nav {
-background: #333;
+background: #111;
 margin: 0 auto;
 width: 940px;
 display: block;
@@ -317,7 +319,6 @@ aside ul li a.current,
 aside ul {
 /* list-style: square inside; */
 margin-bottom: 20px;
-color: #56C9EF;
 }
 
 footer {
@@ -404,3 +405,148 @@ overflow: hidden;
 -webkit-transform: translate(3em,0);
 -moz-transform: translate(3em,0);
   }
+  
+  /*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 270px;
+	height:160px;
+	padding-top:3px;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accomodate scrollable items.
+	it's enough that you set the width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+	clear:both;
+}
+
+.items div {
+	float:left;
+	width:270px;
+}
+
+/* single scrollable item */
+.scrollable img {
+	float:left;
+	background-color:#fff;
+	padding:2px;
+	border:1px solid #ccc;
+	width:100px;
+	height:75px;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+/* active item */
+.scrollable .active {
+	position:relative;
+	cursor:default;
+}
+
+/* Jons edits */
+#contactnum {
+	color:#fff;
+	float:right;
+	text-align:justify;
+	width:200px;
+	height:50px;
+	line-height:50px;
+}
+.subpages {
+	margin: 20px auto;
+	list-style: none;
+}
+.subpages li {
+	float: left;
+	height: 20px;
+	margin: 10px 10px;
+}
+
+.homescrollable {
+
+	/* required settings */
+	
+	position:relative;
+	overflow:hidden;
+	width:720px;
+	height:350px;
+	padding-top:3px;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accomodate scrollable items.
+	it's enough that you set the width and height for the root element and
+	not for this element.
+*/
+.homescrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+	clear:both;
+}
+
+/* single scrollable item */
+.homescrollable img {
+	float:left;
+	background-color:#fff;
+	padding:2px;
+	border:1px solid #ccc;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+/* active item */
+.homescrollable .active {
+	position:relative;
+	cursor:default;
+}
+
+.homeitems div {
+	margin: 5px;
+	float:left;
+	width:350px;
+}
+
+/* position and dimensions of the navigator */
+.navi {
+	width:400px;
+	height:10px;
+}
+
+
+/* items inside navigator */
+.navi a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background:url(../images/navigator.png) 0 0 no-repeat;
+	display:block;
+	font-size:1px;
+}
+
+/* mouseover state */
+.navi a:hover {
+	background-position:0 -8px;      
+}
+
+/* active state (current page state) */
+.navi a.active {
+	background-position:0 -16px;     
+}

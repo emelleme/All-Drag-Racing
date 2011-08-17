@@ -51,6 +51,10 @@ class RegistrationPage_Controller extends Page_Controller
 			Session::clear('skipfb');
 		} */
 	}
+	
+	public function count(){
+		var_dump($this->request->postVars());
+	}
 
 	public function process(){
 		define('FACEBOOK_APP_ID', '207604255917606');

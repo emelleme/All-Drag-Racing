@@ -14,7 +14,7 @@ class VideoPage extends Page
 				'TotalPlays' => 0
 			);
 	
-	function canView() { 
+	/* function canView() { 
 		if($member = Member::CurrentUser())
 		{
 			if($member->inGroup('subscribers')){
@@ -25,7 +25,7 @@ class VideoPage extends Page
 		}else{
 			return false;
 		}
-	}
+	}*/
  
  
 	public function getCMSFields() {
@@ -45,17 +45,53 @@ class VideoPage_Controller extends Page_Controller
 		//Check to see if Member is logged in and is a member of the safecam group
 		if($member = Member::currentUser()){
 			$dragmember = $member->inGroup('subscribers');
-			if(!$dragmember){
-				//Redirect User to login
-				Director::redirect("/in");
-			}else{
+			if($dragmember){
 				ContentNegotiator::set_encoding('UTF-8');
 				//Increase Member Total Play Count
-				$d = DataObject::get_by_id('Member',$member->ID);
-				$d->TotalImpressions = $d->TotalImpressions +1;
-				$d->write();
+				//$d = DataObject::get_by_id('Member',$member->ID);
+				//$d->TotalImpressions = $d->TotalImpressions +1;
+				//$d->write();
+			}else{
+			 Director::redirect('/subscribe');
 			}
 		}
+	}
+	
+	public function MetaTags($includeTitle = true) {
+		$tags = "";
+		if($includeTitle === true || $includeTitle == 'true') {
+			$tags .= "<title>" . Convert::raw2xml(($this->MetaTitle)
+				? $this->MetaTitle
+				: $this->Title) . "</title>\n";
+		}
+
+		$charset = ContentNegotiator::get_encoding();
+		$tags .= "<meta http-equiv=\"Content-type\" content=\"text/html; charset=$charset\" />\n";
+		/*if($this->MetaKeywords) {
+			$tags .= "<meta name=\"keywords\" content=\"" . Convert::raw2att($this->MetaKeywords) . "\" />\n";
+		}
+		if($this->MetaDescription) {
+			$tags .= "<meta name=\"description\" content=\"" . Convert::raw2att($this->MetaDescription) . "\" />\n";
+		}
+		if($this->ExtraMeta) { 
+			$tags .= $this->ExtraMeta . "\n";
+		} */
+		$parent = $this->getParent();
+		$image = $this->VideoImage();
+		$imgurl = $image->getAbsoluteUrl();
+		$thispage = $this->getAbsoluteLiveLink(false);
+		//Facebook Meta tags
+		$tags .= "<meta property=\"fb:app_id\" content=\"207604255917606\"/>\n";
+		$tags .= "<meta property=\"og:title\" content=\"$parent->Title | AllDragRacing.tv\" />\n";
+		$tags .= "<meta property=\"og:url\" content=\"$thispage\"/>\n";
+		$tags .= "<meta property=\"og:type\" content=\"movie\"/>\n";
+		$tags .= "<meta property=\"og:image\" content=\"$imgurl\"/>\n";
+		$tags .= "<meta property=\"og:site_name\" content=\"AllDragRacing.tv\"/>\n";
+		$tags .= "<meta property=\"og:description\" content=\"" . Convert::raw2att($parent->MetaDescription) . "\"/>\n";
+		
+		$this->extend('MetaTags', $tags);
+
+		return $tags;
 	}
 	
 	public function TotalPlays(){

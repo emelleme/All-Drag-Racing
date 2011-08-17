@@ -21,7 +21,7 @@ class VideoHolderPage_Controller extends Page_Controller
 		parent::init();
 		
 		//Check to see if Member is logged in and is a member of the safecam group
-		if($member = Member::currentUser()){
+		/*if($member = Member::currentUser()){
 			$dragmember = $member->inGroup('subscribers');
 			if(!$dragmember){
 				//Redirect User to login
@@ -31,7 +31,23 @@ class VideoHolderPage_Controller extends Page_Controller
 			}
 		}else{
 			Director::redirect("/Security/login?BackURL=%2F".urlencode($this->URLSegment));
+		} */
+		if($member = Member::currentUser()){
+			$dragmember = $member->inGroup('subscribers');
+			if($dragmember){
+				ContentNegotiator::set_encoding('UTF-8');
+				//Increase Member Total Play Count
+				//$d = DataObject::get_by_id('Member',$member->ID);
+				//$d->TotalImpressions = $d->TotalImpressions +1;
+				//$d->write();
+				$vids = DataObject::get_one('VideoPage','ParentID='.$this->ID);
+				//Redirect to first video page
+				Director::redirect($vids->getAbsoluteLiveLink(false));
+			}else{
+			 Director::redirect('/subscribe');
+			}
 		}
+		
 	}
 	
 	public function FirstVideo(){

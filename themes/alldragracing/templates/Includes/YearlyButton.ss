@@ -1,7 +1,5 @@
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="9J6WUU3XVYF4E">
-<input type="image" src="http://emelle.me/assets/yearly.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
+<div style="border-bottom:dotted"><h3 style="font-size: 26px"><a href='https://spreedly.com/alldragracing/subscribers/57492/subscribe/11089/$CurrentMember.FirstName'>Yearly Subscription Plan - $29.95</a></h3>
+<p>*The First 30 days are FREE!!*</p>
+<p><a href='https://spreedly.com/alldragracing/subscribers/57492/subscribe/11089/$CurrentMember.FirstName'>Sign up for this plan now!</a></p>
+</div>
+<br>

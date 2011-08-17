@@ -2,8 +2,8 @@ $f("top_player", "mysite/swf/flowplayer-3.2.5.swf", {
 	//  This next code configures the player to use rtmp plugin for streaming. 
 		clip: { 
 			url: 'mp4:promo_videos/All_Drag_Racing_Network.m4v',
-			autoPlay: false,
-        	autoBuffering: true,
+			autoPlay: true,
+        	autoBuffering: false,
         	provider: 'rtmp'
 		}, 
 	// Here is our rtpm plugin configuration 
@@ -14,10 +14,10 @@ $f("top_player", "mysite/swf/flowplayer-3.2.5.swf", {
 			backgroundGradient: "none",
 			sliderColor: '#FFFFFF',
 			sliderBorder: '1.5px solid rgba(160,160,160,0.7)',
-			volumeSliderColor: '#FFFFFF',
+			volumeSliderColor: 'transparent',
 			volumeBorder: '1.5px solid rgba(160,160,160,0.7)',
  
-			timeColor: '#ffffff',
+			timeColor: 'transparent',
 			durationColor: '#AE0707',
  
 			tooltipColor: 'rgba(255, 255, 255, 0.7)',

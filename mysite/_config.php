@@ -8,8 +8,8 @@ $databaseConfig = array(
 	"type" => 'MySQLDatabase',
 	"server" => 'localhost',
 	"username" => 'root',
-	"password" => 'd3v-Emelle',
-	"database" => 'alldragracing_dev',
+	"password" => 'd3v-Emelle2',
+	"database" => 'alldragracing_live',
 	"path" => '',
 );
 
@@ -17,7 +17,6 @@ MySQLDatabase::set_connection_charset('utf8');
 Director::set_environment_type("dev");
 // This line set's the current theme. More themes can be
 // downloaded from http://www.silverstripe.org/themes/
-SSViewer::set_theme('tutorial');
 
 LeftAndMain::setApplicationName("Emelle.me Content Manager");
 LeftAndMain::set_loading_image('http://dev.emelle.me/assets/images/Logo.loading.png','height:100px;width:584px');

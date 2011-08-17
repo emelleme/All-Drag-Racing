@@ -21,11 +21,16 @@ class SubscriptionPage_Controller extends Page_Controller
 					Director::redirect('/register?nogroup');
 				}else{
 					Session::set('RegisteredEmail',$member->Email);
+					
 				}
 			}else{
-				Director::redirect('Security/login?backURL=/subscribe');
+				Director::redirect('Security/login?BackURL=/subscribe');
 			}
 		}
+	}
+	
+	public function count(){
+		var_dump($this->request->postVars());
 	}
 	
 	public function test(){
@@ -58,14 +63,18 @@ class SubscriptionPage_Controller extends Page_Controller
 	public function success(){
 		//var_dump($this->request);
 		$user = DataObject::get_one('Member', "Email='".Session::get('RegisteredEmail')."'");
-        $user->addToGroupByCode('subscribers');
+		$member = Member::currentUser();
+		if($member){
+        $member->addToGroupByCode('subscribers');
         $adminemail = new Email('lloyd@emelle.me', 'lloyd@emelle.me', "New All Drag Racing Subscription: ".Session::get('RegisteredEmail'));
-    	$adminemail->populateTemplate($d);
 		//All set. Clean up and redirect User to submission Complete Page
 		//send mail
         $adminemail->send();
         Session::clear('RegisteredEmail');
         Director::redirect('/videos');
+        }else{
+        	Director::redirect('');
+        }
 	}
 
 }
